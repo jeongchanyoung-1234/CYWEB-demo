@@ -1,0 +1,72 @@
+.comment {
+    border-top: 1px dotted #ddd;
+    font-size: .7em;
+}
+body {
+    font-family: '맑은고딕', 'sans-serif';
+    position: relative;
+}
+
+a.navbar-brand {
+    font-family: 'impact', 'sans-serif';
+    font-size: 3em;
+}
+
+#searchForm {
+    visibility: hidden;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}
+footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+footer li {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+div .list-group {
+    width: .5em
+}
+main {
+    width: 50%;
+    height: 2100px;
+    margin: 0px auto;
+    background: #353a43;
+    padding: 15px;
+    letter-spacing: 1.2px;
+    color: black;
+    font-family: sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/14/20/25/prague-5405649_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+main .box {
+    margin: 30px auto;
+    width: auto;
+    height: 50px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+main .box:hover {
+    height: 500px;
+    transition: 1s;
+    padding: 30px;
+    background: black;
+    background-image: url(https://cdn.pixabay.com/photo/2020/12/19/03/27/person-5843476_1280.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main img {
+    width: 100%;
+    overflow: hidden;
+}
+
