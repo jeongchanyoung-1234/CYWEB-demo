@@ -1,0 +1,13 @@
+[1mdiff --git a/templates/base.html b/templates/base.html[m
+[1mindex 4cf0aae..be47ce5 100644[m
+[1m--- a/templates/base.html[m
+[1m+++ b/templates/base.html[m
+[36m@@ -9,7 +9,7 @@[m
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">[m
+     <!-- Bootstrap CSS -->[m
+     <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">[m
+[31m-    <title>CYWEB</title>[m
+[32m+[m[32m    <title>무한도전 CYWEB</title>[m
+     <!-- jQuery JS -->[m
+     <script src="{% static 'jquery-3.5.1.min.js' %}"></script>[m
+     <!-- Bootstrap JS -->[m
